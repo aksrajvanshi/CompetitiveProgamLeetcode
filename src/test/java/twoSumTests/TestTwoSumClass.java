@@ -1,12 +1,12 @@
-package testTwoSum;
+package twoSumTests;
 
 import java.util.Arrays;
 
 import org.junit.Assert;
 import org.junit.Test;
-import twoSum.twoSumEasy;
+import twoSumProblem.twoSumEasy;
 
-public class testTwoSumClass {
+public class TestTwoSumClass {
 
     @Test
     public void testTwoSumEasy(){
