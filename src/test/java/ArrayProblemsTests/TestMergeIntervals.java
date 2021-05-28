@@ -23,5 +23,8 @@ public class TestMergeIntervals {
 
         Assert.assertArrayEquals(new int[][] { { 1, 5 }, { 8, 10 } },
                 mergeIntervalsMedium.merge(new int[][] { { 1, 4 }, { 4, 5 }, { 8, 10 } }));
+
+        Assert.assertArrayEquals(new int[][] { { 1, 5 }, { 8, 10 } },
+                mergeIntervalsMedium.merge(new int[][] { { 1, 4 }, { 8, 10 }, { 4, 5 } }));
     }
 }
