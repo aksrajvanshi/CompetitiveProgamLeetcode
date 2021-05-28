@@ -1,10 +1,10 @@
-package twoSumTests;
+package ArrayProblemsTests;
 
 import java.util.Arrays;
 
 import org.junit.Assert;
 import org.junit.Test;
-import twoSumProblem.twoSumEasy;
+import ArrayProblems.twoSumEasy;
 
 public class TestTwoSumClass {
 
