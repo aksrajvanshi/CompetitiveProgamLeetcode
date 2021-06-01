@@ -7,7 +7,7 @@
  *
  * <p>Return the maximum area of an island in grid. If there is no island, return 0.
  */
-package DFS;
+package dfs;
 
 public class MaxAreaIsland {
 

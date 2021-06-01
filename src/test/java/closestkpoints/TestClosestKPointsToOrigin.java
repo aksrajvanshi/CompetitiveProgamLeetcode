@@ -1,4 +1,4 @@
-package ClosestKPoints;
+package closestkpoints;
 
 import org.junit.Assert;
 import org.junit.Test;

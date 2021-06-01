@@ -8,7 +8,7 @@
  * <p>You may return the answer in any order. The answer is guaranteed to be unique (except for the
  * order that it is in).
  */
-package ClosestKPoints;
+package closestkpoints;
 
 import java.util.PriorityQueue;
 

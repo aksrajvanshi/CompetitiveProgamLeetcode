@@ -1,10 +1,9 @@
-package ArrayProblemsTests;
+package arrayproblems;
 
 import java.util.Arrays;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ArrayProblems.twoSumEasy;
 
 public class TestTwoSumClass {
 

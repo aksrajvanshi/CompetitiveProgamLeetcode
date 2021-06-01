@@ -1,6 +1,5 @@
-package ArrayProblemsTests;
+package arrayproblems;
 
-import ArrayProblems.MergeIntervalsMedium;
 import org.junit.Assert;
 import org.junit.Test;
 
