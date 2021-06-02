@@ -13,7 +13,7 @@ public class TestTwoSumClass {
         int[] array1 = new int[] { 2, 7, 11, 15 };
         int target1 = 9;
 
-        twoSumEasy twoSumTestObject = new twoSumEasy();
+        TwoSumEasy twoSumTestObject = new TwoSumEasy();
 
         int[] actualResult = twoSumTestObject.twoSum(array1, target1);
         Arrays.sort(actualResult);

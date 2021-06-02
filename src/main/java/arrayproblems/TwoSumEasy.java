@@ -24,7 +24,7 @@ package arrayproblems;
 import java.util.HashMap;
 import java.util.Map;
 
-public class twoSumEasy {
+public class TwoSumEasy {
 
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> hmap = new HashMap<>();

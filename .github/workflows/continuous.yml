@@ -26,8 +26,8 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
               ${{ runner.os }}-maven-
-      - name: Run maven tests
-        run: mvn test
+      - name: Create maven package
+        run: mvn clean install
       - name: Generate JaCoCo Badge
         uses: cicirello/jacoco-badge-generator@v2
         with:
