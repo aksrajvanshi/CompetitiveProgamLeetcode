@@ -6,5 +6,6 @@
 This repository contains solutions for a variety of Leetcode problems. I have also included test cases for the problems 
 
 I run test cases on merge requests through Github workflows, run a jacoco test coverage, 
-along with creating a codecov coverage report and try to maintain a good quality repo. 
-I am monitoring the code quality through Codacy.  
+along with creating a codecov coverage report.
+
+Moreover, I am trying to ensure a good quality repo with the help of static code analysis tools such as pmd and spotbugs, and monitoring the code quality through Codacy.  
