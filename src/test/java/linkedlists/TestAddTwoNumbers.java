@@ -46,5 +46,14 @@ public class TestAddTwoNumbers {
             expected = expected.next;
             actual = actual.next;
         }
+
+        Assert.assertEquals(expected, actual);
+
+        l1 = null;
+        l2 = null;
+        expected = null;
+        actual = addTwoNumbers.addTwoNumbers(l1, l2);
+
+        Assert.assertEquals(expected, actual);
     }
 }
