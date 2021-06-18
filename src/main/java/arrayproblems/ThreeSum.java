@@ -15,35 +15,35 @@ import java.util.stream.Collectors;
 
 public class ThreeSum {
 
-  public List<List<Integer>> threeSum(int[] nums) {
+    public List<List<Integer>> threeSum(int[] nums) {
 
-    Set<List<Integer>> res = new HashSet<>();
-    Arrays.sort(nums);
+        Set<List<Integer>> res = new HashSet<>();
+        Arrays.sort(nums);
 
-    for (int i = 0; i < nums.length - 2; i++) {
-      int firstNum = nums[i];
-      int start = i + 1;
-      int end = nums.length - 1;
-      int tempTarget = 0 - firstNum;
-      while (start < end) {
+        for (int i = 0; i < nums.length - 2; i++) {
+            int firstNum = nums[i];
+            int start = i + 1;
+            int end = nums.length - 1;
+            int tempTarget = 0 - firstNum;
+            while (start < end) {
 
-        if (nums[start] + nums[end] == tempTarget) {
-          List<Integer> temp = new ArrayList<>();
+                if (nums[start] + nums[end] == tempTarget) {
+                    List<Integer> temp = new ArrayList<>();
 
-          temp.add(firstNum);
-          temp.add(nums[start]);
-          temp.add(nums[end]);
-          res.add(temp);
-          start++;
-          end--;
-        } else if (nums[start] + nums[end] > tempTarget) {
-          end--;
-        } else {
-          start++;
+                    temp.add(firstNum);
+                    temp.add(nums[start]);
+                    temp.add(nums[end]);
+                    res.add(temp);
+                    start++;
+                    end--;
+                } else if (nums[start] + nums[end] > tempTarget) {
+                    end--;
+                } else {
+                    start++;
+                }
+            }
         }
-      }
-    }
 
-    return res.stream().collect(Collectors.toList());
-  }
+        return res.stream().collect(Collectors.toList());
+    }
 }

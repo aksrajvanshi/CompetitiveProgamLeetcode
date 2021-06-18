@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestDecodeString {
 
     @Test
-    public void testDecodeString(){
+    public void testDecodeString() {
         DecodeString decodeString = new DecodeString();
 
     }
