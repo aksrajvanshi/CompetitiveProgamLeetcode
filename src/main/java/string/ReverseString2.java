@@ -1,3 +1,11 @@
+/**
+ * Given a character array s, reverse the order of the words.
+ *
+ * <p>A word is defined as a sequence of non-space characters. The words in s will be separated by a
+ * single space.
+ *
+ * <p>Your code must solve the problem in-place, i.e. without allocating extra space.
+ */
 package string;
 
 public class ReverseString2 {
